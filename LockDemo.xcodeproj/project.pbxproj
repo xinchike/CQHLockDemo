@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C65A2E925660B60000A200E /* CQHSemaphoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A2E825660B60000A200E /* CQHSemaphoreViewController.m */; };
 		1C6FAF642292496C0012FEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FAF632292496C0012FEA7 /* AppDelegate.m */; };
 		1C6FAF672292496C0012FEA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FAF662292496C0012FEA7 /* ViewController.m */; };
 		1C6FAF6A2292496C0012FEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6FAF682292496C0012FEA7 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C65A2E725660B60000A200E /* CQHSemaphoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQHSemaphoreViewController.h; sourceTree = "<group>"; };
+		1C65A2E825660B60000A200E /* CQHSemaphoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQHSemaphoreViewController.m; sourceTree = "<group>"; };
 		1C6FAF5F2292496C0012FEA7 /* LockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6FAF622292496C0012FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C6FAF632292496C0012FEA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C65A2EB25660B70000A200E /* Semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A2E725660B60000A200E /* CQHSemaphoreViewController.h */,
+				1C65A2E825660B60000A200E /* CQHSemaphoreViewController.m */,
+			);
+			path = Semaphore;
+			sourceTree = "<group>";
+		};
 		1C6FAF562292496C0012FEA7 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +150,7 @@
 				1C6FAFA92293EBFD0012FEA7 /* NSCondition */,
 				1C6FAFB32293F06E0012FEA7 /* ReadWrite */,
 				1C6FAFB72293F3B30012FEA7 /* Recursive */,
+				1C65A2EB25660B70000A200E /* Semaphore */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -273,6 +286,7 @@
 				1C6FAF642292496C0012FEA7 /* AppDelegate.m in Sources */,
 				1C6FAFA82293EBF50012FEA7 /* Producer.m in Sources */,
 				1C6FAFB62293F3B00012FEA7 /* RecursiveViewController.m in Sources */,
+				1C65A2E925660B60000A200E /* CQHSemaphoreViewController.m in Sources */,
 				1C6FAF9E2293AF880012FEA7 /* HappensBeforeTest.m in Sources */,
 				1C6FAFB22293F0650012FEA7 /* ReadWriteViewController.m in Sources */,
 				1C6FAFAF2293EC960012FEA7 /* ProducerViewController.m in Sources */,

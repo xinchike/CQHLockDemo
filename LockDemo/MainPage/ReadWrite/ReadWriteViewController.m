@@ -42,7 +42,7 @@
 @end
 
 @implementation ReadWriteViewController
-pthread_rwlock_t rwLock;
+static pthread_rwlock_t rwLock;
 
 - (void)viewDidLoad {
     [super viewDidLoad];

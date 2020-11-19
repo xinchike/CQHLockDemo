@@ -26,6 +26,7 @@
     [self addCell:@"生产者消费者" className:@"ProducerViewController"];
     [self addCell:@"读写锁" className:@"ReadWriteViewController"];
     [self addCell:@"Recursive" className:@"RecursiveViewController"];
+    [self addCell:@"AB执行完再执行C" className:@"CQHSemaphoreViewController"];
 //    [self addCell:@"SPTEBuyViewController" className:@"SPTEBuyViewController"];
 //    [self addCell:@"FeedBack" className:@"FeedBack"];
 }
